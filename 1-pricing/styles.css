@@ -48,6 +48,10 @@ body {
   padding: 0;
   width: 280px;
   text-align: center;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
 }
 
 .plan--featured {
@@ -63,7 +67,7 @@ body {
 .price {
   font-size: 40px;
   font-weight: 700;
-  color: #f8fafc;
+  color: #0f172a;
   margin-bottom: 20px;
 }
 
@@ -80,12 +84,12 @@ body {
 }
 
 .features li {
-  padding: 0;
+  padding: 6px 0;
   margin-bottom: 8px;
 }
 
 .features li::before {
-  content: "";
+  content: "✓"; 
   color: #22c55e;
   font-weight: 700;
   margin-right: 8px;
@@ -95,8 +99,10 @@ body {
   display: inline-block;
   padding: 12px 28px;
   border-radius: 8px;
-  background: #cbd5e1;
+  background: #2563eb;
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;
+  margin-top: auto;
+  align-self: center;
 }
